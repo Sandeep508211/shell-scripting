@@ -1,4 +1,4 @@
 #!/bin/bash
 
-COURSE= DEvops
+COURSE=DEvops
 echo course name =$course
