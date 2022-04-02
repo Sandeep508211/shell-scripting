@@ -10,4 +10,3 @@ echo -e "\n hello, \n\nwelcome to devops"
 echo -e "\e[32mwelcome to devops"
 echo -e "\e[33msandeep"
 
-echo variable from command line X=$x
