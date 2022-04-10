@@ -1,2 +1,0 @@
-coffe:
-	@echo making coffee
