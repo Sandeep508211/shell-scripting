@@ -2,7 +2,8 @@
 
 
 source Components/common.sh
-rm -f /tmp/roboshop frontend
+rm -f /tmp/roboshop.log
+
 HEAD "Installing Nginx/t"
 yum install ngnix -y &>>/tmp/roboshop.log
 STAT $?
