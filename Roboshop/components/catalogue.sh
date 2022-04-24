@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 source Components/common.sh
 rm -f /tmp/roboshop.log
@@ -30,4 +30,5 @@ if [ $? -eq 0 ];then
    STAT $?
 
    HEAD "Fix permission to App content"
-   chown roboshop:roboshop /home/roboshop -g
+   chown roboshop:roboshop /home/roboshop -g &>> /tmp/roboshop.log
+   STAT $?

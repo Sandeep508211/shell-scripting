@@ -1,3 +1,6 @@
-#!bin/bash
+#!/bin/bash
 
-echo installing user
+source Components/common.sh
+rm -f /tmp/roboshop.log
+
+NODEJS "user"

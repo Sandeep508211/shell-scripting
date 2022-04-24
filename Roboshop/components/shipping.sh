@@ -1,3 +1,6 @@
-#!bin/bash
+#!/bin/bash
 
-echo installing shipping
+source Components/common.sh
+rm -f /tmp/roboshop.log
+
+MAVEN "shipping"

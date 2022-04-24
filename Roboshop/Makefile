@@ -25,5 +25,8 @@ mysql:
 shipping:
 	@sh Components/shipping.sh
 
+rabbitmq:
+	@sh Components/rabbitmq.sh
+
 payment:
 	@sh Components/payment.sh
