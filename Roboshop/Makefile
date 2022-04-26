@@ -5,28 +5,28 @@ frontend:
 	@sh frontend.sh
 
 mongodb:
-	@sh Components/mongodb.sh
+	@sh mongodb.sh
 
 catalogue:
-	@sh Components/catalogue.sh
+	@sh catalogue.sh
 
 redis:
-	@sh Components/redis.sh
+	@sh redis.sh
 
 user:
-	@sh Components/user.sh
+	@sh user.sh
 
 cart:
-	@sh Components/cart.sh
+	@sh cart.sh
 
 mysql:
-	@sh Components/mysql.sh
+	@sh mysql.sh
 
 shipping:
-	@sh Components/shipping.sh
+	@sh shipping.sh
 
 rabbitmq:
-	@sh Components/rabbitmq.sh
+	@sh rabbitmq.sh
 
 payment:
-	@sh Components/payment.sh
+	@sh payment.sh
