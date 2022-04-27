@@ -16,7 +16,7 @@ STAT () {
       fi
       }
 
-      App-USER-ADD() {
+      App_USER_ADD() {
         HEAD "Add RoboShop App User\t\t"
         id roboshop &>>/tmp/roboshop.log
         if [ $? -eq 0 ] ; then
