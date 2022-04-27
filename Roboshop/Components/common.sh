@@ -28,7 +28,7 @@ STAT () {
             fi
             }
 
-            SETUP-SYSTEM() {
+            SETUP_SYSTEM() {
               HEAD "Setup SystemD Service\t\t"
               sed -i -e 's/MONGO-DNSNAME/mongodb.roboshop.internal/' -e 's/REDIS_ENDPOINT/redis.roboshop.internal/' -e 's/MONGO-ENDPOINT/mongodb.roboshop.internal/' -e 's/CATALOGUE-ENDPOINT/catalogue.roboshop.internal/' -e 's/CARTENDPOINT/cart.roboshop.internel/' -e 's/DBSHOST/mysql.roboshop.internal/' /home/roboshop/$1/systemd.service && mv /home/roboshop/$1/systemd.service /etc/system/system/$1.service
               STAT $?
