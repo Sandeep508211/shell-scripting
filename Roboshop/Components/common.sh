@@ -23,7 +23,7 @@ STAT () {
           echo User is already there, So Skipping the user creation &>>/tmp/roboshop.log
           STAT $?
           else
-            user add roboshop &>>/tmp/roboshop.log
+            useradd roboshop &>>/tmp/roboshop.log
             STAT $?
             fi
             }
