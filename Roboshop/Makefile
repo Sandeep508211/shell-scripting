@@ -2,31 +2,31 @@ help:
 	@echo
 
 frontend:
-	@sh frontend.sh
+	@sh Components/frontend.sh
 
 mongodb:
-	@sh mongodb.sh
+	@sh Components/mongodb.sh
 
 catalogue:
-	@sh catalogue.sh
+	@sh Components/catalogue.sh
 
 redis:
-	@sh redis.sh
+	@sh Components/redis.sh
 
 user:
-	@sh user.sh
+	@sh Components/user.sh
 
 cart:
-	@sh cart.sh
+	@sh Components/cart.sh
 
 mysql:
-	@sh mysql.sh
+	@sh Components/mysql.sh
 
 shipping:
-	@sh shipping.sh
+	@sh Components/shipping.sh
 
 rabbitmq:
-	@sh rabbitmq.sh
+	@sh Components/rabbitmq.sh
 
 payment:
-	@sh payment.sh
+	@sh Components/payment.sh
