@@ -7,7 +7,7 @@ if [ -z "$(COMPONENT)" ]; then
   echo "Component name is needed"
   fi
 
-  LID=1t-
+  LID=i-08180bf7202b65d69
   LVER=1
 
   DNS_UPDATE() {
