@@ -1,12 +1,27 @@
-echo "devops"
+#!/bin/bash
 
 
-echo "hello world"
 
-echo -e "hello, \n welcome to devops"
+echo "Devops"
+exit  10
 
-echo -e "\n hello, \n\nwelcome to devops"
 
-echo -e "\e[32mwelcome to devops\t"
-echo -e "\e[33msandeep\t"
+echo Hello world
+
+echo -e "Hello,\n welcome to devops"
+echo -e "\nHello,\n\nWelcome to devops"
+
+
+#syntax echo -e "\e[COLORCODEmMessage"
+# COLORS       CODE
+#RED            31
+#Green          32
+#Yellow          33
+#Blue            34
+#Magenta         35
+# Cyan           36
+
+echo -e "\e[32mWelcome to Devops\e[0m"
+echo Devops
+echo -e "\e[34mWelcome to Devops"
 
